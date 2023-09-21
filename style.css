@@ -1,6 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  min-height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.continer {
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+.box {
+  max-width: 450px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 30px 50px;
+  border-radius: 20px;
+}
+.img {
+  background-color: hsla(217, 12%, 63%, 0.082);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.img img {
+  margin: 12px;
+}
+.card-txt {
+  margin-top: 30px;
+}
+.card-txt h1 {
+  font-weight: 700;
+  color: white;
+  margin-bottom: 15px;
+}
+.card-txt p {
+  color: hsl(216, 12%, 54%);
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.num ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+}
+ul li {
+  background-color: hsla(217, 12%, 63%, 0.082);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: hsl(216, 12%, 54%);
+  padding: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+ul li:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+button {
+  margin-top: 25px;
+  padding: 10px 145px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+}
+button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  font-weight: 700;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: absolute;
+  bottom: 20px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
